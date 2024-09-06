@@ -4,5 +4,6 @@ import { loader } from 'fumadocs-core/source';
 
 export const source = loader({
   baseUrl: '/24T3',
+  rootDir: '24T3',
   source: createMDXSource(docs, meta),
 });
